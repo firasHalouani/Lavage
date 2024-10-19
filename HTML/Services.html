@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services de Lavage</title>
+    <link rel="shortcut icon" href="../Images/icones/projectIcone.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/Services.css">
+</head>
+<body>
+    <div style="margin-top: 80px;"></div>
+     <!-- Navbar -->
+     <nav>
+        <input type="checkbox" id="nav-check">
+        <label for="nav-check" id="nav-checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label id="nav-logo">
+            <img src="../Images/acceuil.png" alt="Erreur">
+        </label>
+        <ul id="nav-links">
+            <li><a id="nav-home" href="../HTML/index.html" >Home</a></li>
+            <li><a id="nav-services" href="../HTML/Products.html">products</a></li>
+            <li><a id="nav-services" href="../HTML/Services.html">Services</a></li>
+            <li><a id="nav-feedback" href="../HTML/Blogs.html">Blogs</a></li>
+            <li><a id="nav-contact" href="#contact">Contact</a></li>   
+        </ul>
+    </nav>
+    <!-- titre -->
+    <header>
+        <h1>Services Offerts par Lavage</h1>
+    </header>
+    <main>
+        <section class="cards-container">
+            <div class="card">
+                <img src="../Images/services/a.jpeg" alt="Nettoyage de Voiture">
+                <h2>Nettoyage de Voiture</h2>
+                <p>Un nettoyage complet de l'intérieur et de l'extérieur de votre véhicule.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="../Images/services/b.jpeg" alt="Polissage">
+                <h2>Polissage</h2>
+                <p>Restauration de la brillance de la peinture de votre voiture.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="../Images/services/c.jpeg" alt="Nettoyage de Tapis">
+                <h2>Nettoyage de Tapis</h2>
+                <p>Un nettoyage en profondeur des tapis et moquettes.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="../Images/services/d.jpeg" alt="Shampoing de Sièges">
+                <h2>Shampoing de Sièges</h2>
+                <p>Un traitement de nettoyage des sièges en tissu ou en cuir.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="../Images/services/e.jpeg" alt="Dégivrage de Vitres">
+                <h2>Dégivrage de Vitres</h2>
+                <p>Service rapide pour déglacer vos vitres en hiver.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="../Images/services/f.jpeg" alt="Traitement Anti-Mousse">
+                <h2>Traitement Anti-Mousse</h2>
+                <p>Protection contre les algues et mousses sur la carrosserie.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="../Images/services/g.jpeg" alt="Protection Céramique">
+                <h2>Protection Céramique</h2>
+                <p>Revêtement durable pour protéger la peinture de votre véhicule.</p>
+                <button>En savoir plus</button>
+            </div>
+            <div class="card">
+                <img src="../Images/services/h.jpeg" alt="Service de Lavage Écologique">
+                <h2>Lavage Écologique</h2>
+                <p>Utilisation de produits biodégradables pour un nettoyage respectueux de l'environnement.</p>
+                <button>En savoir plus</button>
+            </div>
+        </section>
+    </main>
+    <!-- contact-us  -->
+  <div id="contact" class="contact-section">
+    <div class="container">
+      <div class="title text-center">
+        <h1>Contactez-Nous</h1>
+        <p>Faites-nous part de vos besoins et nous vous répondrons rapidement.</p>
+      </div>
+      <div class="form">
+        <div class="form-group">
+          <label for="firstname">Prénom</label>
+          <input type="text" name="firstname" id="firstname" placeholder="foulen">
+        </div>
+        <div class="form-group">
+          <label for="lastname">Nom</label>
+          <input type="text" name="lastname" id="lastname" placeholder="BenFoulen">
+        </div>
+        <div class="form-group full-width">
+          <label for="email">Adresse Email</label>
+          <input type="email" name="email" id="email" placeholder="foulen@example.com">
+        </div>
+        <div class="form-group full-width">
+          <label for="subject">Objet</label>
+          <input type="text" name="subject" id="subject" placeholder="Nom de l'objet">
+        </div>
+        <div class="form-group full-width">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Votre message..." rows="5"></textarea>
+        </div>
+        <div class="submit">
+          <button id="sendButton">Envoyer le Message</button>
+          <div id="loading" class="loading"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="../HTML/index.html">Accueil</a></li>
+                    <li><a href="../HTML/Products.html">Produits</a></li>
+                    <li><a href="../HTML/Services.html">Services</a></li>
+                    <li><a href="../HTML/Blogs.html">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Nous Contacter</h3>
+                <p>Email: <a href="mailto:contact@washandgo.com">foulen@gmail.com</a></p>
+                <p>Téléphone: +1 234 567 890</p>
+                <p>Adresse: 123 Wash & Go Rue, Sousse,Tunisie</p>
+            </div>
+            <div class="footer-social">
+                <h3>Suivez-Nous</h3>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2024 Réalisé par AmenAllah et Firas.</p>
+    </footer>
+</body>
+</html>
